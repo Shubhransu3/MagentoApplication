@@ -13,6 +13,7 @@ public class Home {
 
 	public void clickOnMyacc() {
 		driver.findElement(myacc).click();
+		System.out.println("Data has been pushed");
 
 	}
 
